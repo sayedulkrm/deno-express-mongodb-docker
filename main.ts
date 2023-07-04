@@ -7,7 +7,9 @@ const PORT = env.PORT;
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send(
+        `Server running. To check the frontend go here: http://localhost:3000`
+    );
 });
 
 app.listen(PORT, () => {
