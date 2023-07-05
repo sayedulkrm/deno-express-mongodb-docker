@@ -1,5 +1,9 @@
 import express from "npm:express";
 import { load } from "https://deno.land/std/dotenv/mod.ts";
+import { connectDB } from "./config/db.ts";
+
+connectDB();
+
 const env = await load();
 
 const PORT = env.PORT;
