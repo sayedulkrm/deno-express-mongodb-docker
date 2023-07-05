@@ -1,5 +1,6 @@
+// @ts-ignore
 import mongoose from "npm:mongoose";
-
+// @ts-ignore
 import { load } from "https://deno.land/std/dotenv/mod.ts";
 const env = await load();
 
