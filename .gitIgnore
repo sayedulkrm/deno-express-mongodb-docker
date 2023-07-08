@@ -4,6 +4,10 @@
 
 env
 
+/data
+./data
+
+
 *.env
 *.env.example
 *.env.local
