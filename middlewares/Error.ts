@@ -1,5 +1,5 @@
 // @ts-ignore
-import { Request, Response, NextFunction } from "npm:express";
+import { Request, Response, NextFunction } from "npm:express@4.18.2";
 
 const ErrorMiddleware = (
     err: any,

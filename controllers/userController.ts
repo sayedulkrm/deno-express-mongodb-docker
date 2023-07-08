@@ -1,9 +1,9 @@
 // @ts-ignore
-import { Request, Response, NextFunction } from "npm:express";
+import { Request, Response, NextFunction } from "npm:express@4.18.2";
 // @ts-ignore
 import { catchAsyncError } from "../middlewares/catchAsyncError.ts";
 // @ts-ignore
-import Errorhandler from "../utils/errorhandler.ts";
+import Errorhandler from "../utils/ErrorHandler.ts";
 
 // @ts-ignore
 import { User } from "../models/User.ts";

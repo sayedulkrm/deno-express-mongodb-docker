@@ -1,5 +1,5 @@
 // @ts-ignore
-import express from "npm:express";
+import express from "npm:express@4.18.2";
 // @ts-ignore
 
 import { login, register } from "../controllers/userController.ts";

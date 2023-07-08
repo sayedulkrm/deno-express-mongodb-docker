@@ -1,9 +1,9 @@
 // @ts-ignore
-import express from "npm:express";
+import express from "npm:express@4.18.2";
 // @ts-ignore
-import cors from "npm:cors";
+import cors from "npm:cors@2.8.5";
 // @ts-ignore
-import cookieParser from "npm:cookie-parser";
+// import cookieParser from "npm:cookie-parser@1.4.6";
 // @ts-ignore
 import ErrorMiddleware from "./middlewares/Error.ts";
 
@@ -13,7 +13,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser());
+// app.use(cookieParser());
 app.use(cors());
 
 // Importing Routes

@@ -1,5 +1,5 @@
 // @ts-ignore
-import mongoose from "npm:mongoose";
+import mongoose from "npm:mongoose@7.3.2";
 
 const schema = new mongoose.Schema({
     name: {
